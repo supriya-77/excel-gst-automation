@@ -68,3 +68,38 @@ Detect GST Rate
         └───────┬───────┘
                 ▼
         Revised Excel Workbook
+
+Final Workbook Structure
+
+The generated workbook follows this structure:
+
+5
+18
+Temp_5
+Temp_18
+Bill Details
+ITEM
+
+Sheet Descriptions
+Bill Details
+
+The source billing sheet containing transaction-level billing information, including:
+
+Item details
+HSN information
+Quantity
+UOM
+Sale Rate
+Item Value
+GST Rate
+CGST
+SGST
+Final Amount
+
+Technology Stack
+Python
+OpenPyXL
+Tkinter
+pathlib
+logging
+Windows file dialog

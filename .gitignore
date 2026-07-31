@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Excel generated files
+Revised *.xlsx
+Revised *.xlsm
+
+# Local Excel files
+*.xlsx
+*.xlsm
+*.xltx
+*.xltm
+
+# IDE files
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db

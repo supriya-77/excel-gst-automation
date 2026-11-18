@@ -79,9 +79,9 @@ Temp_5
 Temp_18
 Bill Details
 ITEM
-5_Final
-18_Final
 
+**Sheet Descriptions**
+Bill Details
 The source billing sheet containing transaction-level billing information, including:
 
 Item details
@@ -94,6 +94,15 @@ GST Rate
 CGST
 SGST
 Final Amount
+
+**5**
+Contains transactions identified as 5% GST transactions.
+
+The sheet also includes:
+- GST-specific transaction rows
+- Dynamic calculations
+- CGST summary
+- SGST summary
 
 Technology Stack
 Python

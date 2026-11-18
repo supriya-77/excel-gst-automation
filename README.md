@@ -104,7 +104,61 @@ The sheet also includes:
 - CGST summary
 - SGST summary
 
-Technology Stack
+**18**
+Contains transactions identified as 18% GST transactions.
+
+The sheet also includes:
+- GST-specific transaction rows
+- Freight transactions
+- Dynamic calculations
+- CGST summary
+- SGST summary
+
+**Temp_5**
+A structured data-preparation sheet for 5% GST transactions.
+
+The sheet includes fields such as:
+- Ctr
+- Voucher Date
+- Voucher Type Name
+- Voucher Number
+- Ledger Name
+- Ledger Amount
+- Ledger Amount Dr/Cr
+- Item Name
+- Item Allocations - Godown Name
+- Actual Quantity
+- Billed Quantity
+- Quantity UOM
+- Item Rate
+- Item Rate per
+- Item Amount
+- Change Mode
+
+The row mapping follows:
+Ctr 0  → Farmer Name / Ledger
+Ctr 1  → Sheet 5, Sl 1
+Ctr 2  → Sheet 5, Sl 2
+...
+Ctr N  → Sheet 5, Sl N
+
+**Temp_18**
+A structured data-preparation sheet for 18% GST transactions.
+
+It follows the same dynamic mapping approach:
+Ctr 0  → Farmer Name / Ledger
+Ctr 1  → Sheet 18, Sl 1
+Ctr 2  → Sheet 18, Sl 2
+...
+Ctr N  → Sheet 18, Sl N
+
+The final special rows include:
+- Freight charges
+- Output CGST
+- Output SGST
+
+
+**Technology Stack**
 Python
 OpenPyXL
 Tkinter

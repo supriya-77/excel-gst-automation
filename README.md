@@ -79,9 +79,8 @@ Temp_5
 Temp_18
 Bill Details
 ITEM
-
-Sheet Descriptions
-Bill Details
+5_Final
+18_Final
 
 The source billing sheet containing transaction-level billing information, including:
 
